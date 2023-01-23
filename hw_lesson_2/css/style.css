@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h2{
+    color: gray;
+}
+
+li{
+    list-style: circle;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+img{
+    height: 400px;
+    width: 600px;
+}
+
+
+
+
