@@ -1,0 +1,89 @@
+@import url(reset.css)
+
+
+@import url(https://fonts.googleapis.com/css?family=Martel:300,regular,700&display=swam);
+
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('fonts/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+body{
+        font-family: 'Source Sans Pro', 'Martel';
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(85, 6, 160);
+}
+
+.title, .dinamica, .main, .statica{
+    font-family: 'Martel';
+    font-weight: 600;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(212, 44, 72);
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(66, 66, 141);
+    text-transform: capitalize;
+}
+
+.one{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.finish{
+    font-family: 'CircularStd';
+    font-weight: 300;
+}
+
+
+h1{
+    color: blueviolet;
+    font-style: oblique;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(66, 66, 141);
+    text-transform: capitalize;
+    white-space: normal;
+    word-spacing: 20px;
+}
+
+
+h4, h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px rgb(66, 66, 141);
+    color: rgb(145, 89, 167);
+}
+
+
+p{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+li{
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+}
