@@ -1,0 +1,57 @@
+@import url("reset.css");
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icons__container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: violet;
+}
+
+.img_icons{
+    max-width: 1170px;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    margin-right: 35px;
+}
+
+.content__container{
+    margin-bottom: 50px;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.img_content img {
+    max-width: 150px;
+    margin-right: 35px;
+}
+
+.design__container{
+    margin-bottom: 50px;
+}
+
+.design__elements{
+    background-color: rgba(128, 128, 128, 0.623);
+    padding: 10px;
+    text-align: center;
+}
+
+
